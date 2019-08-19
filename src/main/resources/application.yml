@@ -1,6 +1,15 @@
 spring:
   datasource:
     driver-class-name: com.mysql.jdbc.Driver
-    url: jdbc:mysql://172.30.246.236:3306/mydb?useUnicode=true&characterEncoding=utf8
+    url: jdbc:mysql://10.130.36.244:3306/test?useUnicode=true&characterEncoding=utf8
     username: root
-    password: hello123
+    password: hello
+    #url: jdbc:mysql://localhost:3506/restapidb?serverTimezone=Asia/Shanghai&useUnicode=true&characterEncoding=utf8&useSSL=false
+    #username: root
+    #password: hello
+
+mybatis-plus:
+  global-config:
+    db-config:
+      id-type: auto
+      table-prefix: t_
