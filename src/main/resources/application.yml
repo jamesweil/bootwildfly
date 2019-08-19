@@ -7,6 +7,8 @@ spring:
     #url: jdbc:mysql://localhost:3506/restapidb?serverTimezone=Asia/Shanghai&useUnicode=true&characterEncoding=utf8&useSSL=false
     #username: root
     #password: hello
+  jmx:
+    enabled: false
 
 mybatis-plus:
   global-config:
